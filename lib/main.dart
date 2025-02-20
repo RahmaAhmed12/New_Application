@@ -35,6 +35,7 @@ class MyApp extends StatelessWidget {
     final themeProvider= Provider.of<ThemeProvider>(context);
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
      routes: {
         NewsScreen.routeName :(context)=> NewsScreen(),
